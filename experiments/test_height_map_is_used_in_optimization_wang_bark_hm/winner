@@ -1,0 +1,5 @@
+with height map wins
+
+in optimize.py:
+  self.aifdm = self.concat([self.aihm, np_to_list(fdm)])
+  #self.aifdm = self.concat([np_to_list(aihm[:,:,:3]), np_to_list(fdm)])
